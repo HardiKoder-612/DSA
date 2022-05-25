@@ -13,13 +13,13 @@ public class RotateANumber {
     int num=sc.nextInt();
     int d=sc.nextInt();
     int n=0, temp=num;
-    while(temp>0)
+    while(temp>0)           //For the number of digits
     {
         n++;
         temp/=10;
     }
-    d=d%n;
-    if(d<0)
+    d=d%n;                  // if value of d is very large
+    if(d<0)                 // if d in negative
     {
         d=d+n;
     }
