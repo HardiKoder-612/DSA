@@ -18,7 +18,11 @@ public class RotateANumber {
         n++;
         temp/=10;
     }
-    d%=n;
+    d=d%n;
+    if(d<0)
+    {
+        d=d+n;
+    }
     int rem=num%(int)Math.pow(10,d);
     int q=num/(int) Math.pow(10,d);
     int ans=rem*(int)Math.pow(10,n-d)+q;
