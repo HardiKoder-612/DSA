@@ -1,6 +1,6 @@
-package LinkedList;
+package LinkedListPractice;
 
-public class LinkedList {
+public class LinkedListIntro {
     static Node head;                  //it can be taken from Node.java file of same package, you can also make nested classes like below
     public class Node {
         int data;
@@ -194,7 +194,7 @@ public class LinkedList {
         temp.next=newnode;
     }
      public static void main(String[] args) {
-        LinkedList obj=new LinkedList();
+        LinkedListIntro obj=new LinkedListIntro();
         obj.insert(12);
         obj.insert(13);
         obj.insert(23);

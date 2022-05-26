@@ -1,9 +1,9 @@
-package Stack;
+package StackPractice;
 //Array Implementation
-public class Stack {
+ class StackIntro {
     int stack[]=new int[5];             //Size of array is 5
     int top=-1;                         //!!!!!!! MUST MUST REMEMBER IT
-    public void push(int data)
+    protected void push(int data)
     {
         if(size()>=5)
         {
@@ -15,7 +15,7 @@ public class Stack {
             stack[top]=data;
         }
     }
-    public void show()
+    protected void show()
     {
         if(isEmpty())
             System.out.println("Stack is empty");
@@ -24,7 +24,7 @@ public class Stack {
             System.out.println(i+ " ");
         }
     }
-    public int pop()                   // to delete the topmost element
+    protected int pop()                   // to delete the topmost element
     {
 //        top--;                          //to shift the top to the last element(only done in static method)
         if(isEmpty())
@@ -34,18 +34,18 @@ public class Stack {
         top--;                          //changing the top to the second-last element
         return data;
     }
-    public int peek()                   // to delete the topmost element
+    protected int peek()                   // to delete the topmost element
     {
         if(isEmpty())
             System.out.println("Stack is empty");
         int data=stack[top];
         return data;
     }
-    public int size()
+    protected int size()
     {
         return top;
     }
-    public boolean isEmpty()
+    protected boolean isEmpty()
     {
         if(top==-1)
             return true;
@@ -53,8 +53,8 @@ public class Stack {
             return false;
     }
 
-    public static void main(String[] args) {
-        Stack obj=new Stack();
+    protected static void main(String[] args) {
+        StackIntro obj=new StackIntro();
         obj.push(15);
         obj.push(8);
         obj.push(9);

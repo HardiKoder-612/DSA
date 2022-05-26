@@ -1,4 +1,4 @@
-package Queue;
+package QueuePractice;
 //rear =addition
 //front=delete
 //enqueue=represent insertion
@@ -8,7 +8,7 @@ package Queue;
 At first, front and rear both will be at first index,
 but after adding an element we increment rear and when we delete an element we decrement the front
  */
-public class Queue {
+public class QueueIntro {
     int queue[]=new int[5];
     int size=0;
     int front;
@@ -63,7 +63,7 @@ public class Queue {
         return getSize()==5;
     }
     public static void main(String[] args) {
-        Queue obj=new Queue();
+        QueueIntro obj=new QueueIntro();
         obj.enqueue(2);
         obj.enqueue(43);
         obj.enqueue(12);

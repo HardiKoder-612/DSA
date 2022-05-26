@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysIntro;
 import java.util.*;
 
 public class MaxAndMinElementFromArray {

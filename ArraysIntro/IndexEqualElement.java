@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysIntro;
 
 public class IndexEqualElement {
     public static void main(String[] args) {

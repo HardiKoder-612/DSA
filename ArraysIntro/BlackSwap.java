@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.*;
+package ArraysIntro;
 
 class BlackSwap
 {

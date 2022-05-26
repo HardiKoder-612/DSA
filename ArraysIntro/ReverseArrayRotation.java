@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysIntro;
 
 public class ReverseArrayRotation {
     void reverse(int arr[], int d, int size)

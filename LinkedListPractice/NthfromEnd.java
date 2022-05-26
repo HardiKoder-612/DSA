@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedListPractice;
 
 public class NthfromEnd {
 
