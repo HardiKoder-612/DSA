@@ -1,4 +1,4 @@
-package ArraysIntro;// Java program to rotate an array by
+package ArraysPractice;// Java program to rotate an array by
 // d elements
 
 import java.util.Scanner;

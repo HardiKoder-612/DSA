@@ -1,4 +1,4 @@
-package InverseOfANumber;
+package NumberSystem.InverseOfANumber;
 import java.util.*;
 import java.lang.Math;
 public class Inverse {

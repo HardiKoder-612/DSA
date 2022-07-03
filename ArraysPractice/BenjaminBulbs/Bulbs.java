@@ -1,4 +1,4 @@
-package BenjaminBulbs;
+package ArraysPractice.BenjaminBulbs;
 
 import java.util.*;
 import java.lang.*;

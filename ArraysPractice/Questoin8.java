@@ -1,4 +1,4 @@
-package ArraysIntro;
+package ArraysPractice;
 
 import java.util.*;
 

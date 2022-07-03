@@ -1,4 +1,4 @@
-package StackPractice;
+package StackPractice.DynamicStack;
 //Dynamic array is expandable as well as shrinkable
 public class Dynamic_Stack {
     int capacity=2;         //we will increase it two times as we add elements

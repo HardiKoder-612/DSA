@@ -1,4 +1,4 @@
-package ArraysIntro;
+package ArraysPractice;
 import java.lang.*;
 //We can use this for string also
 public class ReverseArray {

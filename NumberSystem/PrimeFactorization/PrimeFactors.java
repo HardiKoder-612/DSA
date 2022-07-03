@@ -1,4 +1,4 @@
-package PrimeFactorization;
+package NumberSystem.PrimeFactorization;
 
 import java.util.*;
 import java.lang.*;

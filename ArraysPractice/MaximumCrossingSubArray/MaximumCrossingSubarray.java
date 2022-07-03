@@ -1,4 +1,4 @@
-package MaximumCrossingSubArray;
+package ArraysPractice.MaximumCrossingSubArray;
 
 import java.util.*;
 import java.lang.*;

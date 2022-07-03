@@ -1,4 +1,4 @@
-package GCDandLCM;
+package NumberSystem.GCDandLCM;
 
 import java.util.Scanner;
 public class GcdAndLcm {

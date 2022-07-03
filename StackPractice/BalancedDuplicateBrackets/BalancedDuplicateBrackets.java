@@ -1,4 +1,4 @@
-package StackPractice;
+package StackPractice.BalancedDuplicateBrackets;
 
 import java.util.*;
 import java.lang.*;

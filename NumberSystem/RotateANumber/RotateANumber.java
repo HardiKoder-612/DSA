@@ -4,7 +4,7 @@
 //        ans: 162735
 
 
-package RotateANumber;
+package NumberSystem.RotateANumber;
 import java.util.*;
 import java.lang.*;
 public class RotateANumber {
