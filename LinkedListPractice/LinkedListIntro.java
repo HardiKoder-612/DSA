@@ -1,5 +1,7 @@
 package LinkedListPractice;
 
+import java.util.ArrayList;
+
 public class LinkedListIntro {
     static Node head;                  //it can be taken from Node.java file of same package, you can also make nested classes like below
     public class Node {
@@ -204,17 +206,7 @@ public class LinkedListIntro {
         obj.insert(67);
         obj.insert(76);
         obj.insert(89);
-//        obj.show();
-//        obj.InsertAtStart(25);
-//        obj.show();
-//        obj.InsertAtAnyLocation(2,55);
-//        obj.show();
-//        obj.search(18);
-//        System.out.println("Size of the node is: "+obj.size());
-//        System.out.println("Middle node is: "+(obj.middleNode()).data);
-//        System.out.println("2nd node from the last is: "+(obj.nodefromlast(2)).data);
-//        obj.RemoveDuplicateFromList();
-//        obj.show();
+
         obj.InsertInSortedList(25);
         obj.show();
 

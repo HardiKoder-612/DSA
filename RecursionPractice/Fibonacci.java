@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionPractice;
 
 public class Fibonacci {
     public int result(int n)

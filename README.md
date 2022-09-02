@@ -19,7 +19,7 @@
     Ans. Method of solving a computational problem where the problem depends upon its smaller sub-problems.
     
     *Advantages*    
-    1. Recursion adds clarity and (sometimes) reduces the time needed to write and debug code (but doesn't necessarily reduce space requirements or speed of execution).
+    1. RecursionPractice adds clarity and (sometimes) reduces the time needed to write and debug code (but doesn't necessarily reduce space requirements or speed of execution).
     2. Reduces time complexity.
     3. Performs better in solving problems based on tree structures.
 

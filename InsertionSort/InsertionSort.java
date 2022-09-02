@@ -15,6 +15,7 @@ public class InsertionSort {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]+", ");
         }
+        int shift=0;
         System.out.println();
         for (int i = 1; i < arr.length; i++) {
             int key =arr[i];
@@ -24,6 +25,7 @@ public class InsertionSort {
                 arr[j+1]=arr[j];
                 j=j-1;
                 arr[j+1]=key;
+                shift++;
             }
         }
         System.out.println("Sorted array is: ");
