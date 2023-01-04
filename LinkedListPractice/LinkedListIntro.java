@@ -198,16 +198,24 @@ public class LinkedListIntro {
      public static void main(String[] args) {
         LinkedListIntro obj=new LinkedListIntro();
         obj.insert(12);
+         obj.show();
         obj.insert(13);
+         obj.show();
         obj.insert(23);
+         obj.show();
         obj.insert(34);
+         obj.show();
         obj.insert(45);
+         obj.show();
         obj.insert(56);
+         obj.show();
         obj.insert(67);
+         obj.show();
         obj.insert(76);
+         obj.show();
         obj.insert(89);
+         obj.show();
 
-        obj.InsertInSortedList(25);
         obj.show();
 
     }

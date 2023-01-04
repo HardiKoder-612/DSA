@@ -6,7 +6,6 @@ import java.lang.*;
 public class GraphIntro {
     static class Edge{
         int src,nbr,wt;
-
         Edge(int src,int nbr,int wt)
         {
             this.src=src;
